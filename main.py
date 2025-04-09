@@ -5,11 +5,11 @@ import cv2
 
 
 #rozmezi barev puku v hsv modrych 
-low_b = np.array([90, 86, 1])
-high_b = np.array([192,255,255])
+low_b = np.array([180, 10, 10])
+high_b = np.array([260, 100,100])
 
 
-low_r = np.array([160,50,100])#deafult 160,50,100
+low_r = np.array([30,50,100])#deafult 160,50,100
 high_r = np.array([190,255,255])
 
 
