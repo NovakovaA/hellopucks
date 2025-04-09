@@ -4,10 +4,13 @@ import matplotlib.pyplot as plt
 import cv2
 
 
-#rozmezi barev puku v hsv
-low = np.array([90, 86, 1])
-high = np.array([192,255,255])
+#rozmezi barev puku v hsv modrych 
+low_b = np.array([90, 86, 1])
+high_b = np.array([192,255,255])
 
+
+low_r = np.array([160,50,100])#deafult 160,50,100
+high_r = np.array([190,255,255])
 
 
 #camera setup
